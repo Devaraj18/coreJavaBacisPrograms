@@ -107,4 +107,9 @@ public class User {
 		return false;
 		
 	}
+
+	public void postTweet(String tweetId) {
+		tweets.add(tweetId);
+		
+	}
 }
